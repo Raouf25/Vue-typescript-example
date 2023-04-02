@@ -20,6 +20,9 @@
 </template>
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator'
+import VueRouter from 'vue-router'
+Vue.use(VueRouter)
+
 @Component
 export default class Navbar extends Vue {}
 </script>
