@@ -86,7 +86,9 @@ export default class DrawPoint extends Vue {
   private image2!: HTMLImageElement
 
   mounted() {
-    this.points = pointsData.slice(0, 5).map((point: any) => ({
+    this.points = pointsData
+    //.slice(0, 55)
+    .map((point: any) => ({
       color: point.color,
       initialX: point.x1,
       initialY: point.y1,
@@ -101,7 +103,7 @@ export default class DrawPoint extends Vue {
 
     this.context = this.canvas.getContext('2d')!
     this.image = new Image()
-    this.image.src = require('@/assets/right.jpg')
+    this.image.src = require('@/assets/right.png')
     this.image.onload = () => {
       this.canvas.width = this.image.width
       this.canvas.height = this.image.height
@@ -113,7 +115,7 @@ export default class DrawPoint extends Vue {
 
     this.context2 = this.canvas2.getContext('2d')!
     this.image2 = new Image()
-    this.image2.src = require('@/assets/left.jpg')
+    this.image2.src = require('@/assets/left.png')
     this.image2.onload = () => {
       this.canvas2.width = this.image2.width
       this.canvas2.height = this.image2.height
@@ -335,9 +337,7 @@ export default class DrawPoint extends Vue {
   justify-content: center; /* Centrer horizontalement */
 }
 
-.image-container {
-  display: flex;
-  align-items: center; /* Centrer verticalement */
+.image-container {  
   margin-right: 20px;
 }
 
