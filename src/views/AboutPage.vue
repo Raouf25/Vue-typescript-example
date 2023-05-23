@@ -2,7 +2,7 @@
   <div>Contenu du About page</div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   // Composant logique
 }
