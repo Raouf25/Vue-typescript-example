@@ -1,2 +1,2 @@
 "use strict";(self["webpackChunkts_vue_sample"]=self["webpackChunkts_vue_sample"]||[]).push([[443],{97776:function(n,u,e){e.r(u),e.d(u,{default:function(){return i}});var t=function(){var n=this,u=n._self._c;n._self._setupProxy;return u("div",{staticClass:"not-found"},[n._v("Page not found")])},l=[],s=e(27195),o=(0,s.defineComponent)({name:"NotFoundPage"}),r=o,a=e(1001),f=(0,a.Z)(r,t,l,!1,null,"0d43a478",null),i=f.exports},53890:function(n,u,e){e.r(u),e.d(u,{default:function(){return f}});var t=function(){var n=this,u=n._self._c;return u("div",[n._v("Contenu du About page")])},l=[],s={},o=s,r=e(1001),a=(0,r.Z)(o,t,l,!1,null,null,null),f=a.exports}}]);
-//# sourceMappingURL=about-legacy.29096184.js.map
+//# sourceMappingURL=about-legacy.6380701b.js.map
